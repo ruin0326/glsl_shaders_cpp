@@ -38,68 +38,68 @@ Additionally, some of these examples use extra graphics layers for more complex 
 
 These shaders are about as stripped down as can be. They mostly just render colors to the screen. Start here if you've never seen or used a shader before.
 
-1. [Red](https://aferriss.github.io/p5jsShaderExamples/1_basics/1-1_red)  
-2. [Gray](https://aferriss.github.io/p5jsShaderExamples/1_basics/1-2_gray)  
-3. [Cyan](https://aferriss.github.io/p5jsShaderExamples/1_basics/1-3_cyan)  
-4. [Functions](https://aferriss.github.io/p5jsShaderExamples/1_basics/1-4_functions)  
+1. [Red](https://ruin0326.github.io/glsl_shaders_cpp/1_basics/1-1_red)  
+2. [Gray](https://ruin0326.github.io/glsl_shaders_cpp/1_basics/1-2_gray)  
+3. [Cyan](https://ruin0326.github.io/glsl_shaders_cpp/1_basics/1-3_cyan)  
+4. [Functions](https://ruin0326.github.io/glsl_shaders_cpp/1_basics/1-4_functions)  
 
 ## Texture Coordinates  
 
 These shaders show how to manipulate texture coordinates in a variety of different way. They start out simple, and gradually become more complex.
 
-1. [Basic](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-1_basic)
-2. [Tiles](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-2_tiles)
-3. [Gradient](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-3_gradient)
-4. [Random](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-4_random)
-5. [Noise](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-5_noise)
-6. [Checker](https://aferriss.github.io/p5jsShaderExamples/2_texture-coordinates/2-6_checker)
+1. [Basic](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-1_basic)
+2. [Tiles](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-2_tiles)
+3. [Gradient](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-3_gradient)
+4. [Random](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-4_random)
+5. [Noise](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-5_noise)
+6. [Checker](https://ruin0326.github.io/glsl_shaders_cpp/2_texture-coordinates/2-6_checker)
 
 
 ## Uniforms  
 
 These shaders show how to send data to the shader in uniform variables. All examples after this section will use uniforms to talk to the shader.
 
-1. [Mouse](https://aferriss.github.io/p5jsShaderExamples/3_uniforms/3-1_mouse)
-2. [texture2D](https://aferriss.github.io/p5jsShaderExamples/3_uniforms/3-2_texture2d)
-3. [time](https://aferriss.github.io/p5jsShaderExamples/3_uniforms/3-3_time)
+1. [Mouse](https://ruin0326.github.io/glsl_shaders_cpp/3_uniforms/3-1_mouse)
+2. [texture2D](https://ruin0326.github.io/glsl_shaders_cpp/3_uniforms/3-2_texture2d)
+3. [time](https://ruin0326.github.io/glsl_shaders_cpp/3_uniforms/3-3_time)
 
 ## Image Effects
 
 This section is a collection of shaders that manipulate images or video in some way. Some of them are simple examples like inverting colors, and others are more complicated effects like bloom. Most of these examples use the webcam.
 
-1. [Invert](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-1_webcam-invert)
-2. [RGB Split](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-2_rgb-split)
-3. [Sinewave Distortion](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-3_sinewave-distort)
-4. [Video Mirror](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-4_mirror)
-5. [Texcoord Stripes](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-5_stripes-from-image)
-6. [Pixelate / Mosaic](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-6_pixelate)
-7. [Displacement Map](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-7_displacement-map)
-8. [RGB to HSB conversion](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-8_rgb-to-hsb)
-9. [Single Pass Blur](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-9_single-pass-blur)
-10. [Multi-Pass Blur](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-10_two-pass-blur)
-11. [Bloom](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-11_bloom)
-12. [Threshold](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-12_threshold)
-13. [Frame Differencing](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-13_frame-differencing)
-14. [RGB to Grayscale conversion](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-14_rgb-to-grayscale)
-15. [Convolution Kernel Effects (Blur, Sharpen, Emboss, Edge Detect)](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-15_convolution-kernel)
-16. [Video Feedback](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-16_video-feedback)
-17. [Texture Delay](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-17_delay)  
-18. [Discard](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-18_discard)
-19. [Slitscan](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-19_slitscan)
-20. [Fly's Eye Mosaic](https://aferriss.github.io/p5jsShaderExamples/4_image-effects/4-20_mosaic)
+1. [Invert](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-1_webcam-invert)
+2. [RGB Split](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-2_rgb-split)
+3. [Sinewave Distortion](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-3_sinewave-distort)
+4. [Video Mirror](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-4_mirror)
+5. [Texcoord Stripes](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-5_stripes-from-image)
+6. [Pixelate / Mosaic](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-6_pixelate)
+7. [Displacement Map](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-7_displacement-map)
+8. [RGB to HSB conversion](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-8_rgb-to-hsb)
+9. [Single Pass Blur](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-9_single-pass-blur)
+10. [Multi-Pass Blur](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-10_two-pass-blur)
+11. [Bloom](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-11_bloom)
+12. [Threshold](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-12_threshold)
+13. [Frame Differencing](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-13_frame-differencing)
+14. [RGB to Grayscale conversion](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-14_rgb-to-grayscale)
+15. [Convolution Kernel Effects (Blur, Sharpen, Emboss, Edge Detect)](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-15_convolution-kernel)
+16. [Video Feedback](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-16_video-feedback)
+17. [Texture Delay](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-17_delay)  
+18. [Discard](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-18_discard)
+19. [Slitscan](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-19_slitscan)
+20. [Fly's Eye Mosaic](https://ruin0326.github.io/glsl_shaders_cpp/4_image-effects/4-20_mosaic)
 
 ## Shapes  
 
 These shaders show how to create basic shapes just using math within the shader.
 
-1. [Rectangle](https://aferriss.github.io/p5jsShaderExamples/5_shapes/5-1_rectangle)
-2. [Circle](https://aferriss.github.io/p5jsShaderExamples/5_shapes/5-2_circle)
-3. [Polygon](https://aferriss.github.io/p5jsShaderExamples/5_shapes/5-3_polygon)
+1. [Rectangle](https://ruin0326.github.io/glsl_shaders_cpp/5_shapes/5-1_rectangle)
+2. [Circle](https://ruin0326.github.io/glsl_shaders_cpp/5_shapes/5-2_circle)
+3. [Polygon](https://ruin0326.github.io/glsl_shaders_cpp/5_shapes/5-3_polygon)
 
 ## 3d
 
 These examples show how to use shaders with 3d geometry
-1. [Box](https://aferriss.github.io/p5jsShaderExamples/6_3d/6-1_rectangle)
-2. [Vertex Displacement](https://aferriss.github.io/p5jsShaderExamples/6_3d/6-2_vertexDisplacement)
-3. [Vertex Displacement With Texture](https://aferriss.github.io/p5jsShaderExamples/6_3d/6-3_vertexDisplacementFromTexture)
-4. [Matcap Shader](https://aferriss.github.io/p5jsShaderExamples/6_3d/6-4_matcap)
+1. [Box](https://ruin0326.github.io/glsl_shaders_cpp/6_3d/6-1_rectangle)
+2. [Vertex Displacement](https://ruin0326.github.io/glsl_shaders_cpp/6_3d/6-2_vertexDisplacement)
+3. [Vertex Displacement With Texture](https://ruin0326.github.io/glsl_shaders_cpp/6_3d/6-3_vertexDisplacementFromTexture)
+4. [Matcap Shader](https://ruin0326.github.io/glsl_shaders_cpp/6_3d/6-4_matcap)
